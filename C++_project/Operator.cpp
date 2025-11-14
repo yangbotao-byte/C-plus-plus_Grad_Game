@@ -32,10 +32,14 @@ bool control::msg_control() {
 
             // 判断点击是否在矩形区域内
             if (msg.x >= left && msg.x <= right && msg.y >= top && msg.y <= bottom) {
-                outtextxy(100, 100, _T("Hello, EasyX!"));
+                /*outtextxy(100, 100, _T("Hello welcome game!"));*/
                 return true;
             }
         }
     }
     return false; // 如果没有点击或者点击不在区域内，返回false
+}
+
+tuple<int, int, int, int> control::get_son_message() const {
+    return make_tuple(0,0,0,0);
 }

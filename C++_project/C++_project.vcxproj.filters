@@ -30,12 +30,27 @@
     <ClCompile Include="UI.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MySQL_Engine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQL_Engine_Driver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rubilsh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Operator.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="class_sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mysql_Engine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="menthod.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,5 +1,4 @@
 #pragma once
-#include"tool.h"
 #include"Operator.h"
 
 /* ¼Ì³Ð²Ù×÷ */
