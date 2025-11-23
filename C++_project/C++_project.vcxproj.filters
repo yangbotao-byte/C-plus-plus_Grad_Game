@@ -39,6 +39,15 @@
     <ClCompile Include="rubilsh.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="UseManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="log_sign.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Operator.h">
@@ -51,6 +60,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="menthod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UseManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

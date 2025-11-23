@@ -126,20 +126,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="log_sign.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MySQL_Engine.cpp" />
     <ClCompile Include="MySQL_Engine_Driver.cpp" />
     <ClCompile Include="Operator.cpp" />
     <ClCompile Include="rubilsh.cpp" />
+    <ClCompile Include="Timer.cpp" />
     <ClCompile Include="tool.h" />
     <ClCompile Include="UI.cpp" />
     <ClCompile Include="UI.h" />
+    <ClCompile Include="UseManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="class_sum.h" />
     <ClInclude Include="menthod.h" />
     <ClInclude Include="Mysql_Engine.h" />
     <ClInclude Include="Operator.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="UseManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

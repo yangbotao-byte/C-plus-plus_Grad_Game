@@ -102,3 +102,14 @@
 //
 //    return 0;
 //}
+
+
+/*start_page.put();
+	load_UI.put();
+	log_UI.put();
+	settextstyle(16, 0, "ºÚÌå");
+	settextcolor(0x98FB98);
+	outtextxy(900, 560, "database is creat successly! Ciallo~");
+	outtextxy(900, 580, "database is link successly! Ciallo~");*/
+	/*load_UI.get_son_message();
+	log_UI.get_son_message();*/

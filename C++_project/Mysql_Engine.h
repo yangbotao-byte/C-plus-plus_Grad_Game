@@ -60,7 +60,6 @@ public:
     // SQL执行
 	bool execute(const std::string& sql);            // 执行非查询SQL语句
 	std::unique_ptr<sql::ResultSet> executeQuery(const std::string& sql);  // 执行查询SQL语句
-	bool createDatabase(const std::string& dbName);  // 创建数据库
 
     // 调试方法
     string getLastError() const;

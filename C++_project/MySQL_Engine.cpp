@@ -105,13 +105,19 @@ bool MySQLDriver::execute(const std::string& sql) {
     }
 }
 
+//这里利用智能指针，防止内存泄漏
+// <sql::ResultSet>这个表示智能指针的类型
+
 std::unique_ptr<sql::ResultSet> MySQLDriver::executeQuery(const std::string& sql) {
     try {
+        // 看对象是否有效
         if (!statement) {
             lastError = "Statement is not initialized";
             return nullptr;
         }
 
+        //调用MySQL驱动程序的executeQuery方法执行SQL
+        //将返回的原始指针包装成unique_ptr进行自动内存管理
         auto result = std::unique_ptr<sql::ResultSet>(statement->executeQuery(sql));
         lastError.clear();
         return result;
